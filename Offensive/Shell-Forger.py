@@ -291,7 +291,7 @@ def start_listener(bind_addr='0.0.0.0', port=4444):
 
 # === SHOW HELP ===
 def show_help():
-    log(f"\n--- Enhanced Shell Forger v{VERSION} ---\n", "W")
+    log(f"\n--- Shell Forger ---\n", "W")
     log("Usage: ./Shell-Forger.py <mode> [options]\n", "R")
     log("Modes:", "W")
     print(f"  {C['B']}gen{C['N']}     <ip> <port> [type] [encoding]  - Generate payload")
